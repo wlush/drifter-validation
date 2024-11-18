@@ -46,7 +46,7 @@ for pld in [30]: #code can be run for other drifter durations (1 to 60 days), cu
     mArr = np.ravel(mArr)
 
     #check that the length of GDP and centroid array match
-    assert len(cArr)==len(dArr), 'lengths do not match, check yer shit'
+    assert len(cArr)==len(dArr), 'lengths do not match'
 
     pArr = dArr/cArr #normalize GDP drifter disp. vectors by centroid vector
 
